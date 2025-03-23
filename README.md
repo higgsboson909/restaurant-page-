@@ -22,6 +22,31 @@ By The Odin Project
 7. remove the stuff inside div#content
 8. create the stuff using js only one by one
 9. write initial page-load fun() inside its own module
+    load_home_page()
+        create home div
+        create container div
+
+            create part1 div
+                insert img
+                insert p tag
+
+            create part2 div
+                insert left
+                    insert img
+                    insert p tag
+
+                insert right
+                    insert img
+                    insert p tag
+
+            create part3 div
+                insert p
+                insert img
+                insert p
+        
+
+
+
 10. import this page-load fun() and call it inside the index.js
 
 
