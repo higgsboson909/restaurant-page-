@@ -1,0 +1,45 @@
+/* styles.css */
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #B5EAEA;
+    font-size: 14px;
+}
+
+nav {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+}
+
+.home {
+    width: 75vw;
+}
+
+.container {
+    padding: 20px;
+    background-color: antiquewhite;
+}
+
+.part2 {
+    display: flex;
+    
+}
+
+.left, .right {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left .txt, .right .txt {
+    padding: 0 8px 0 8px;
+}
+
+    
