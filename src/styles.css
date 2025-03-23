@@ -26,6 +26,9 @@ nav {
     padding: 20px;
     background-color: antiquewhite;
 }
+.part1 img , .part3 img{
+    width: 100%;
+}
 
 .part2 {
     display: flex;
@@ -42,4 +45,8 @@ nav {
     padding: 0 8px 0 8px;
 }
 
+.left img, .right img {
+    width: 80%;
+    height: auto;
+}
     
