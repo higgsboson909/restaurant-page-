@@ -15,7 +15,6 @@ btnEls.forEach((b) => {
             load_home_page();
         }
         else if(event.target.classList.contains("p2")) {
-            // contentEl.innerHTML = "<h1>Coming Soon</h1>"
             load_menu_page();
         }
         else if (event.target.classList.contains("p3")) {

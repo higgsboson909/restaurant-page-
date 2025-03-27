@@ -3,7 +3,6 @@ import  locationImg  from "./asset/resource/location.jpg";
 
 export let load_about_page = () => {
     
-    contentEl.innerHTML = "<h1>Coming Soon</h1>"
 
     class CreateDomElement {
         constructor (type, className) {
@@ -22,12 +21,27 @@ export let load_about_page = () => {
     contentEl.append(aboutEl);
 
     
-    const textEl = new CreateDomElement('div', 'about-text').getDomEl();
+    const aboutTextEl = new CreateDomElement('div', 'about-text').getDomEl();
+    // const textEl = new CreateDomElement('pre', 'text-element').getDomEl();
+    let html = `<pre><h2>MCafe Eugen GmbH &amp Co. KG</h2>
+    Domplatz XX
+    481XX Münster
+    E-Mail: myrestaurant@restaurant.de
+
+    Geschäftsführung
+    Eugen aus Essen
+
+    Gerichtsstand: Amtsgericht Münster, Westfalen
+    Steuernummer: 111/2222/3333 </pre>`
+
+    aboutTextEl.innerHTML = html; 
+    // aboutTextEl.append(textEl);
     const imgEl = new CreateDomElement('img', 'location-img').getDomEl();
     imgEl.src = locationImg;
 
-    aboutEl.append(textEl);
+    aboutEl.append(aboutTextEl);
     aboutEl.append(imgEl);
+
 
 
 };
