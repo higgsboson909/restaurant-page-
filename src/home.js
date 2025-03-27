@@ -1,11 +1,11 @@
 import cafe from "./asset/resource/cafe.jpeg";
 import designer8 from "./asset/resource/Designer8.jpeg";
 import designer10 from "./asset/resource/Designer10.jpeg";
+import { contentEl } from "./index"
 let load_home_page = (() => {
 
 
 
-    let  contentEl = document.querySelector("#content");
     
     class DomElement {
 
@@ -121,12 +121,7 @@ let load_home_page = (() => {
     part3El.dElement.appendChild(p3text1El.dElement);
     part3El.dElement.appendChild(p3Img.dElement);
     part3El.dElement.appendChild(p3text2El.dElement);
-
-
-
     // End Append Element
-    
-
 
 });
 

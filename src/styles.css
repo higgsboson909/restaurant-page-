@@ -18,7 +18,8 @@ nav {
     justify-content: center;
 }
 
-.home {
+.home , .menu{
+    background-color: antiquewhite;
     width: 75vw;
 }
 
@@ -49,4 +50,21 @@ nav {
     width: 80%;
     height: auto;
 }
-    
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+    gap: 40px;
+
+}
+
+.menu div {
+    width: 20%;
+}
+
+.images {
+    width: 100%;
+}
